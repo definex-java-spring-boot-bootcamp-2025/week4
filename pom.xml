@@ -11,15 +11,14 @@
     </parent>
 
     <groupId>dev.patika.definexjavaspringbootbootcamp2025</groupId>
-    <artifactId>week3</artifactId>
+    <artifactId>week4</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+
     <modules>
-        <module>fundamentals-of-rest-services</module>
-        <module>fundamentals-of-grpc</module>
-        <module>fundamentals-of-soap</module>
-        <module>fundamentals-of-websocket</module>
-        <module>fundamentals-of-async-api-calls</module>
+        <module>fundamentals-of-jdbc</module>
+        <module>fundamentals-of-spring-jdbc</module>
+        <module>fundamentals-of-spring-data-jpa</module>
     </modules>
 
     <dependencies>
@@ -31,6 +30,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.4</version>
         </dependency>
     </dependencies>
 

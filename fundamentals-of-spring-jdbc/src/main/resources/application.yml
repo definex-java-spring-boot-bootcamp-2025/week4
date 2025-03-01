@@ -1,0 +1,10 @@
+# datasource:
+  # url: "jdbc:postgresql://localhost:5432/patikadev"
+  # username: patika.dev
+  # password: patika.dev
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/patikadev
+    username: patika.dev
+    password: patika.dev
